@@ -2,7 +2,7 @@
 
 
 
-#The package is designed for position prediction using throttle and steering of a car.
+# The package is designed for position prediction using throttle and steering of a car. #
 
 
 **Neural Network Definition**
