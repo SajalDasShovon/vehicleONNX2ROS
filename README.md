@@ -4,7 +4,7 @@
 # The package is designed for position prediction using throttle and steering of a car. #
 
 
-###Neural Network Definition###
+#Neural Network Definition#
 
 A neural network architecture includes:
 
@@ -21,12 +21,12 @@ Output Layer: 3 neurons corresponding to the predictions for velocity, x-positio
 **After training for 100 epochs, the model is exported to the ONNX format using torch.onnx.export(). This allows the model to be used in ROS. **
 
 
-###ROS Architecture###
+#ROS Architecture#
 
 ONNX2ROS Key Components:
 
-ONNX Model Loading: node loads a pre-trained ONNX model named vehicle_regression.onnx for performing inference.
-Input Data Processing: It subscribes to the /vehicle_input topic, which provides a Float32MultiArray containing throttle and steering angle values.
+ONNX Model Loading: node loads a pre-trained ONNX model named vehicle_regression.onnx for performing inference.  
+Input Data Processing: It subscribes to the /vehicle_input topic, which provides a Float32MultiArray containing throttle and steering angle values.  
 
 Inference and Prediction:
 The input data is processed and fed into the ONNX model to predict position and velocity.
