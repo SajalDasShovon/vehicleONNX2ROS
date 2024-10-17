@@ -8,6 +8,7 @@ The package is designed for position prediction using throttle and steering of a
 Neural Network Definition:
 
 A neural network architecture includes:
+
 Input Layer: 2 neurons (for throttle and steering angle).
 
 Hidden Layers:
