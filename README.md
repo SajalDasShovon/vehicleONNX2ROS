@@ -9,9 +9,12 @@ Neural Network Definition:
 
 A neural network architecture includes:
 Input Layer: 2 neurons (for throttle and steering angle).
+
 Hidden Layers:
 First hidden layer with 128 neurons.
+
 Second hidden layer with 64 neurons.
+
 Output Layer: 3 neurons corresponding to the predictions for velocity, x-position, and y-position.
 
 
