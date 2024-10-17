@@ -1,11 +1,10 @@
-# vehicleONNX2ROS
-
-
-
+# vehicleONNX2ROS  
+  
+  
 # The package is designed for position prediction using throttle and steering of a car. #
 
 
-**Neural Network Definition**
+###Neural Network Definition###
 
 A neural network architecture includes:
 
@@ -19,10 +18,10 @@ Second hidden layer with 64 neurons.
 Output Layer: 3 neurons corresponding to the predictions for velocity, x-position, and y-position.
 
 
-After training for 100 epochs, the model is exported to the ONNX format using torch.onnx.export(). This allows the model to be used in ROS.
+**After training for 100 epochs, the model is exported to the ONNX format using torch.onnx.export(). This allows the model to be used in ROS. **
 
 
-**ROS Architecture**
+###ROS Architecture###
 
 ONNX2ROS Key Components:
 
